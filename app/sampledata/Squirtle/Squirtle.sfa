@@ -1,0 +1,83 @@
+{
+  materials: [
+    {
+      name: 'Material #60',
+      parameters: [
+        {
+          baseColor: 'pm0007_00_Body1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #61',
+      parameters: [
+        {
+          baseColor: 'pm0007_00_Eye1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Squirtle/Squirtle.FBX',
+    name: 'Squirtle',
+    recenter: 'root',
+    scale: 0.00074000000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Squirtle\\images\\pm0007_00_Body1.png',
+      name: 'pm0007_00_Body1',
+      pipeline_name: 'images\\pm0007_00_Body1.png',
+    },
+    {
+      file: 'sampledata/Squirtle\\images\\pm0007_00_Eye1.png',
+      name: 'pm0007_00_Eye1',
+      pipeline_name: 'images\\pm0007_00_Eye1.png',
+    },
+  ],
+  version: '0.54:1',
+}

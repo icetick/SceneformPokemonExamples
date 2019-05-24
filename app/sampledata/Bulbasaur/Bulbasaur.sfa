@@ -1,0 +1,145 @@
+{
+  materials: [
+    {
+      name: 'Material #10',
+      parameters: [
+        {
+          baseColor: 'pm0001_00_BodyA1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #11',
+      parameters: [
+        {
+          baseColor: 'pm0001_00_Eye1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #12',
+      parameters: [
+        {
+          baseColor: 'pm0001_00_BodyB1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #13',
+      parameters: [
+        {
+          baseColor: 'pm0001_00_Iris1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Bulbasaur/Bulbasaur.FBX',
+    name: 'Bulbasaur',
+    recenter: 'root',
+    scale: 0.00034000000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Bulbasaur\\images\\pm0001_00_BodyA1.png',
+      name: 'pm0001_00_BodyA1',
+      pipeline_name: 'images\\pm0001_00_BodyA1.png',
+    },
+    {
+      file: 'sampledata/Bulbasaur\\images\\pm0001_00_Iris1.png',
+      name: 'pm0001_00_Iris1',
+      pipeline_name: 'images\\pm0001_00_Iris1.png',
+    },
+    {
+      file: 'sampledata/Bulbasaur\\images\\pm0001_00_Eye1.png',
+      name: 'pm0001_00_Eye1',
+      pipeline_name: 'images\\pm0001_00_Eye1.png',
+    },
+    {
+      file: 'sampledata/Bulbasaur\\images\\pm0001_00_BodyB1.png',
+      name: 'pm0001_00_BodyB1',
+      pipeline_name: 'images\\pm0001_00_BodyB1.png',
+    },
+  ],
+  version: '0.54:1',
+}

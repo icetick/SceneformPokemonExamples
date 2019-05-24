@@ -1,0 +1,115 @@
+{
+  materials: [
+    {
+      name: 'Bug',
+      parameters: [
+        {
+          baseColor: 'pm0015_00_BodyC1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'BodyANutrey_Env',
+      parameters: [
+        {
+          baseColor: 'pm0015_00_BodyA1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'BodyBRediba_Wing00',
+      parameters: [
+        {
+          baseColor: 'pm0015_00_BodyB1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Color',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Beedrill/Beedrill.FBX',
+    name: 'Beedrill',
+    recenter: 'root',
+    scale: 0.00036900000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Beedrill\\Images\\pm0015_00_BodyC1.png',
+      name: 'pm0015_00_BodyC1',
+      pipeline_name: 'Images\\pm0015_00_BodyC1.png',
+    },
+    {
+      file: 'sampledata/Beedrill\\Images\\pm0015_00_BodyA1.png',
+      name: 'pm0015_00_BodyA1',
+      pipeline_name: 'Images\\pm0015_00_BodyA1.png',
+    },
+    {
+      file: 'sampledata/Beedrill\\Images\\pm0015_00_BodyB1.png',
+      name: 'pm0015_00_BodyB1',
+      pipeline_name: 'Images\\pm0015_00_BodyB1.png',
+    },
+  ],
+  version: '0.54:1',
+}

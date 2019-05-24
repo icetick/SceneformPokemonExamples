@@ -1,0 +1,114 @@
+{
+  materials: [
+    {
+      name: 'Material #72',
+      parameters: [
+        {
+          baseColor: 'pm0008_00_Body1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #73',
+      parameters: [
+        {
+          baseColor: 'pm0008_00_Eye1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #74',
+      parameters: [
+        {
+          baseColor: 'pm0008_00_Iris1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Wartortle/Wartortle.FBX',
+    name: 'Wartortle',
+    recenter: 'root',
+    scale: 0.00074000000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Wartortle\\images\\pm0008_00_Body1.png',
+      name: 'pm0008_00_Body1',
+      pipeline_name: 'images\\pm0008_00_Body1.png',
+    },
+    {
+      file: 'sampledata/Wartortle\\images\\pm0008_00_Eye1.png',
+      name: 'pm0008_00_Eye1',
+      pipeline_name: 'images\\pm0008_00_Eye1.png',
+    },
+    {
+      file: 'sampledata/Wartortle\\images\\pm0008_00_Iris1.png',
+      name: 'pm0008_00_Iris1',
+      pipeline_name: 'images\\pm0008_00_Iris1.png',
+    },
+  ],
+  version: '0.54:1',
+}

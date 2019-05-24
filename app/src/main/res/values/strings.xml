@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SceneformARCoreExamples</string>
+    <string-array name="pokemons">
+        <item>Beedrill</item>
+        <item>Pikachu</item>
+        <item>Bulbasaur</item>
+        <item>Charmander</item>
+        <item>Squirtle</item>
+    </string-array>
+</resources>

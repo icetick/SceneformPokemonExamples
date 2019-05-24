@@ -1,0 +1,331 @@
+{
+  materials: [
+    {
+      name: 'Material #247',
+      parameters: [
+        {
+          baseColor: 'nb2_pointglasses',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #248',
+      parameters: [
+        {
+          baseColor: 'nb2_bagbag',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #249',
+      parameters: [
+        {
+          baseColor: 'nb2_bangle01',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #250',
+      parameters: [
+        {
+          baseColor: 'nb2_btmsskin',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #251',
+      parameters: [
+        {
+          baseColor: 'nb2_face_on_1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #252',
+      parameters: [
+        {
+          baseColor: 'nb2_face_on_0',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #253',
+      parameters: [
+        {
+          baseColor: 'nb2_hair01_on',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #254',
+      parameters: [
+        {
+          baseColor: 'nb2_hathun',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #255',
+      parameters: [
+        {
+          baseColor: 'nb2_shoessboots',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Material #256',
+      parameters: [
+        {
+          baseColor: 'nb2_topsjer',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Calem/Calem.FBX',
+    name: 'Calem',
+    recenter: 'root',
+    scale: 0.00074000000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Calem\\images\\nb2_shoessboots.png',
+      name: 'nb2_shoessboots',
+      pipeline_name: 'images\\nb2_shoessboots.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_pointglasses.png',
+      name: 'nb2_pointglasses',
+      pipeline_name: 'images\\nb2_pointglasses.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_face_on_0.png',
+      name: 'nb2_face_on_0',
+      pipeline_name: 'images\\nb2_face_on_0.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_bagbag.png',
+      name: 'nb2_bagbag',
+      pipeline_name: 'images\\nb2_bagbag.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_bangle01.png',
+      name: 'nb2_bangle01',
+      pipeline_name: 'images\\nb2_bangle01.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_btmsskin.png',
+      name: 'nb2_btmsskin',
+      pipeline_name: 'images\\nb2_btmsskin.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_face_on_1.png',
+      name: 'nb2_face_on_1',
+      pipeline_name: 'images\\nb2_face_on_1.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_topsjer.png',
+      name: 'nb2_topsjer',
+      pipeline_name: 'images\\nb2_topsjer.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_hair01_on.png',
+      name: 'nb2_hair01_on',
+      pipeline_name: 'images\\nb2_hair01_on.png',
+    },
+    {
+      file: 'sampledata/Calem\\images\\nb2_hathun.png',
+      name: 'nb2_hathun',
+      pipeline_name: 'images\\nb2_hathun.png',
+    },
+  ],
+  version: '0.54:1',
+}
