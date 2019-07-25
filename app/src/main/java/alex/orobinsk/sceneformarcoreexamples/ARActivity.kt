@@ -187,12 +187,12 @@ class ARActivity : AppCompatActivity() {
         )
     }
 
-    private fun addInfoPopup(poke: Node) {
+    private fun addInfoPopup(poke: Node?) {
         var popupNode = Node()
         popupNode.setParent(poke)
         val popupSpaceSize = 0.01f
 
-        popupNode.localPosition = Vector3(0f, popupSpaceSize + poke.getHeight(), 0f)
+        popupNode.localPosition = Vector3(0f, popupSpaceSize + (poke?.getHeight()?:0f), 0f)
 
         ViewRenderable.builder().setView(this, R.layout.info_card).build()
             .thenAccept { renderable: ViewRenderable? ->
@@ -218,9 +218,9 @@ class ARActivity : AppCompatActivity() {
                             }
 
                             override fun onAnimationEnd(animation: Animator?) {
-                                poke.removeChild(popupNode)
+                                poke?.removeChild(popupNode)
                                 evolveModel.let {
-                                    poke.renderable = evolveModel
+                                    poke?.renderable = evolveModel
                                 }
                                 blockInterruption = false
                             }
@@ -246,7 +246,7 @@ class ARActivity : AppCompatActivity() {
     }
 
     private fun Node.getHeight(): Float {
-       return (this.renderable.collisionShape as Box).size.y
+       return (this.renderable?.collisionShape as Box).size.y
     }
 
     private fun getNextEvo(): Int {
@@ -315,7 +315,7 @@ class ARActivity : AppCompatActivity() {
         arFragment.arSceneView.scene.addChild(anchorNode)
     }
 
-    private fun ModelRenderable.placeObject(anchor: Anchor, listener: Node.OnTouchListener) {
+    private fun ModelRenderable.placeObject(anchor: Anchor?, listener: Node.OnTouchListener) {
         val anchorNode = AnchorNode(anchor)
 
         TransformableNode(arFragment.transformationSystem).apply {
